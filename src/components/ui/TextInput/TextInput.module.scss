@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+.textInput {
+  width: 100%;
+  background-color: $color-gray-light;
+  border: 1px solid $color-black-light;
+  border-radius: $border-radius-base;
+  padding: 7.5px 10px;
+  font-size: $base-font-size;
+  color: $color-black;
+  outline: none;
+
+  &:disabled {
+    color: #aaaaaa;
+  }
+
+  &:focus {
+    border: 1px solid $color-primary;
+  }
+}

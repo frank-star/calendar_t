@@ -1,0 +1,35 @@
+@import "styles/variables";
+
+.homePage {
+  &__header {
+    color: $color-black;
+    font-weight: 700;
+    font-size: 34px;
+    padding: 30px;
+  }
+
+  &__bodyContainer {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    width: 100%;
+
+    @include for-size(lg) {
+      flex-wrap: wrap;
+    }
+
+    @include for-size(sm) {
+      padding: 16px;
+    }
+  }
+
+  &__containerForm {
+    max-height: 325px;
+    width: 322px;
+    min-width: 322px;
+
+    @include for-size(lg) {
+      width: 100%;
+    }
+  }
+}

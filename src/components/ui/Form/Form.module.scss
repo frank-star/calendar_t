@@ -1,0 +1,16 @@
+@import "styles/variables";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: $base-border-width solid $color-border;
+  border-radius: $border-radius-large;
+  width: 100%;
+  padding: 20px;
+
+  &__title {
+    font-size: 18px;
+    color: $color-black;
+  }
+}

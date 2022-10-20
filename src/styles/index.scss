@@ -1,0 +1,18 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  font-family: $base-font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+code {
+  font-family: $code-font-family;
+}

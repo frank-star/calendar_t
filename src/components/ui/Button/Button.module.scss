@@ -1,0 +1,28 @@
+@import 'styles/variables';
+
+.button {
+  background-color: $color-primary;
+  border-radius: $border-radius-base;
+  border: none;
+  color: $color-white;
+  cursor: pointer;
+  font-size: $base-font-size;
+  padding: 9px 18px;
+  transition: .3s;
+
+  &:hover {
+    background-color: lighten($color-primary, 10%);
+  }
+
+  &:active {
+    background-color: darken($color-primary, 10%);
+  }
+
+  &:disabled {
+    opacity: $base-opacity;
+  }
+
+  &_isWide {
+    width: 100%;
+  }
+}
